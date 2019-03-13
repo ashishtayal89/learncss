@@ -8,4 +8,4 @@ A step by step guide to learn advanced css.
 
 ## Content 
 
-1. [Introduction](https://github.com/ashishtayal89/learncss/introduction/intro.md)
+1. [Introduction](https://github.com/ashishtayal89/learncss/blob/master/docs/introduction/intro.md)
