@@ -8,4 +8,10 @@ A step by step guide to learn advanced css.
 
 ## Content 
 
-1. [Introduction](https://github.com/ashishtayal89/learncss/blob/master/docs/introduction/intro.md)
+1. [Basic](https://github.com/ashishtayal89/learncss/blob/master/docs/basic/intro.md)
+
+2. [Advanced](https://github.com/ashishtayal89/learncss/blob/master/docs/advanced/intro.md)
+
+3. [Responsive](https://github.com/ashishtayal89/learncss/blob/master/docs/responsive/intro.md)
+
+4. [Grid](https://github.com/ashishtayal89/learncss/blob/master/docs/responsive/intro.md)
