@@ -1,0 +1,45 @@
+{
+    "introduction":{
+        "history":"asdf",
+        "working":"asdf",
+        "standard":"asdf"
+    },
+    "scope":{
+        "introduction":"asdf",
+        "lexicalScope":"asdf",
+        "scopeTypes":"asdf",
+        "useCase":"asdf"
+    },
+    "closure":{
+        "introduction":"asdf",
+        "useCase":"asdf"
+    },
+    "variables":{
+        "types":"asdf",
+        "defineProperty":"asdf",
+        "destructureSpreadAndRest":""
+    },
+    "symbols":{
+        "introduction": "",
+        "useCase":""
+    },
+    "types":{
+        "primitive": "",
+        "nonPrimitive": ""
+    },
+    "object":{
+        "properties": "",
+        "prototypeProperties": ""
+    },
+    "array":{
+        "properties": "",
+        "prototypeProperties": ""
+    },
+    "string":{
+        "properties": "",
+        "prototypeProperties": ""
+    },
+    "functions":{
+        "prototype": ""
+    }
+}
