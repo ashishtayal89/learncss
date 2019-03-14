@@ -17,7 +17,7 @@
 
 8. [Web Fonts](https://github.com/ashishtayal89/learncss/blob/master/docs/advanced/webfonts.md)
 
-9. [Transforms](https://github.com/ashishtayal89/learncss/blob/master/docs/advanced/tranforms.md)
+9. [Transforms](https://github.com/ashishtayal89/learncss/blob/master/docs/advanced/transforms.md)
 
 
 
