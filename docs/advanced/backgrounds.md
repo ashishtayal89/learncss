@@ -1,5 +1,6 @@
 ## Introduction
 
+<li>background
 <li>background-size
 <li>background-origin
 <li>background-clip
