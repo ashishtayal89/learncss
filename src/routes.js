@@ -7,6 +7,7 @@ export default function routes(props) {
     return (
         <Switch>
             <Route exact path="/" component={Home} />
+            <Route exact path="/course" component={Home} />
             <Route path="/course" component={Courses} />
         </Switch>
     )

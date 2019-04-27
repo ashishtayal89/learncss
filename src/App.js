@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import Routes from './routes';
+import BreadCrumb from './components/BreadCrumb'
 import './App.css';
 
 class App extends Component {
@@ -10,10 +11,15 @@ class App extends Component {
         <header>
           <h1><Link to='/'>Learn and Upgrade</Link></h1>
         </header>
-        <Routes />
-        <div className='footer'>
-          @copyright ashishtayal14@gmail.com 2019
-        </div>
+        <main>
+          <div className="breadCrumb">
+            <BreadCrumb />
+          </div>
+          <Routes />
+        </main>
+        <footer>
+          <span>@copyright ashishtayal14@gmail.com 2019</span>
+        </footer>
       </div>
     );
   }

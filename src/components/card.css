@@ -63,7 +63,7 @@
     justify-content: center;
     align-items: center;
     height: 60%;
-    background: yellow;
+    background: var(--color-yellow);
     font-size: 40px;
     text-shadow: 4px 4px 16px grey;
     font-weight: bold;  
@@ -75,5 +75,5 @@
     justify-content: center;
     align-items: center;
     height: 40%;
-    background: white;
+    background: var(--color-white);
 }

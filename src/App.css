@@ -2,10 +2,19 @@ html{
   height: 100%;
 }
 
+:root{
+  --color-white: white;
+  --color-light-grey: lightgrey;
+  --color-grey: grey;
+  --color-dark-grey: darkgrey;
+  --color-light-yellow: lightyellow;
+  --color-yellow: yellow;
+}
+
 body{
   min-height: 100%;
   position: relative;
-  background: lightgrey;
+  background: var(--color-light-grey);
 }
 
 header{
@@ -30,7 +39,22 @@ header a{
   text-decoration: none !important;
 }
 
-div.footer{
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  width: 70%;
+  padding: 50px;
+  min-height: 70vh;
+  background: var(--color-white);
+}
+
+div.breadCrumb{
+  width : 100%;
+}
+
+footer{
   position: absolute;
   display: flex;
   align-items: center;

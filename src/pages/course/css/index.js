@@ -1,11 +1,11 @@
-import React, { Fragment } from 'react';
-import { Route } from 'react-router-dom';
-import courseDetails from './courseDetails';
+import React from 'react';
+import CourseDetails from '../../../components/CourseDetails';
+import courseList from './courseDetails.json';
+import Routes from './routes';
 
 export default function index({ match }) {
+  const {isExact} = match;
   return (
-    <Fragment>
-      <Route path={`${match.url}`} component={courseDetails} />
-    </Fragment>
+    isExact ? <CourseDetails courseList={courseList} /> : <Routes/>
   )
 }
