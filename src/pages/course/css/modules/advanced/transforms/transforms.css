@@ -1,0 +1,96 @@
+div.normal {
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+div.translate{
+    -ms-transform: translate(50px,100px); /* IE 9 */
+    -webkit-transform: translate(50px,100px); /* Safari */
+    transform: translate(50px,50px); /* Standard syntax */
+}
+  
+div.rotateX {
+    -webkit-transform: rotateX(150deg); /* Safari */
+    transform: rotateX(150deg); /* Standard syntax */
+}
+
+@-webkit-keyframes spinner {
+    25% {
+      -webkit-transform: perspective(100px) rotateX(180deg) rotateY(0);
+              transform: perspective(100px) rotateX(180deg) rotateY(0); 
+              background-color: red;
+        }
+    50% {
+      -webkit-transform: perspective(100px) rotateX(180deg) rotateY(180deg);
+              transform: perspective(100px) rotateX(180deg) rotateY(180deg); 
+              background-color: orangered;
+        }
+    75% {
+      -webkit-transform: perspective(100px) rotateX(0) rotateY(180deg);
+              transform: perspective(100px) rotateX(0) rotateY(180deg); 
+              background-color: orange;
+        }
+    100% {
+      -webkit-transform: perspective(100px) rotateX(0) rotateY(0);
+              transform: perspective(100px) rotateX(0) rotateY(0);
+              background-color: yellow;
+         } 
+}
+  
+div#square{
+    width: 100px;
+    height: 100px;
+    animation-name: spinner;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+
+@-webkit-keyframes roller {
+    0% {
+                transform: rotateZ(0deg);
+                left: 0%;
+                border-radius: 50%;
+        }
+    100% {
+                transform: rotateZ(360deg);
+                left: 80%;
+         } 
+}
+
+
+div#roller{
+    background-color: red;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    animation-name: roller;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+  
+
+@-webkit-keyframes rotate {
+    0% {
+                transform: rotateZ(0deg);
+                border-radius: 50%;
+        }
+    100% {
+                transform: rotateZ(360deg);
+         } 
+}
+
+
+div#rotate{
+    background-color: red;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}

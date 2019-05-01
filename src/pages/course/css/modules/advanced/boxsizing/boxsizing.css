@@ -1,0 +1,27 @@
+#withoutBoxSize1 {
+    width: 300px;
+    height: 100px;
+    border: 1px solid blue; 
+  }
+  
+#withoutBoxSize2 {
+    width: 300px;
+    height: 100px;
+    padding: 50px;
+    border: 1px solid red;
+}
+
+#withBoxSize1 {
+    width: 300px;
+    height: 100px;
+    border: 1px solid blue; 
+    box-sizing: border-box;
+  }
+  
+#withBoxSize2 {
+    width: 300px;
+    height: 100px;
+    padding: 50px;
+    border: 1px solid red;
+    box-sizing: border-box;
+}

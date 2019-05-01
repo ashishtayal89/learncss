@@ -1,0 +1,21 @@
+div.resize {
+    border: 2px solid;
+    padding: 20px; 
+    width: 300px;
+    resize: horizontal;
+    overflow: auto;
+}
+
+div.outline1 {
+    margin: 20px;
+    border: 1px solid black;
+    outline: 4px solid red;
+    outline-offset: 15px;
+  } 
+  
+  div.outline2 {
+    margin: 10px;
+    border: 1px solid black;
+    outline: 5px dashed blue;
+    outline-offset: 5px;
+  } 

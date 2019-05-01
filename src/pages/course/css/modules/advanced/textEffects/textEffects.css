@@ -1,0 +1,53 @@
+
+/* text-overflow */
+
+div.overflow {
+    white-space: nowrap; 
+    width: 200px; 
+    overflow: hidden; 
+    border: 1px solid #000000;
+}
+  
+div.overflow:hover {
+    overflow: visible;
+}
+
+div.ellipsis{
+    text-overflow:ellipsis;
+}
+
+div.clip{
+    text-overflow:clip;
+}
+
+/* word-wrap */
+
+p.wordWrap {
+    width: 11em; 
+    border: 1px solid #000000;
+    word-wrap: break-word;
+}
+
+/* work-break */
+
+p.wordBreak1 {
+    width: 140px; 
+    border: 1px solid #000000;
+    word-break: keep-all;
+  }
+  
+  p.wordBreak2 {
+    width: 140px; 
+    border: 1px solid #000000;
+    word-break: break-all;
+  }
+
+/* writing-mode */
+
+p.writingMode1 {
+    writing-mode: horizontal-tb; 
+}
+  
+p.writingMode2 {
+    writing-mode: vertical-rl; 
+}

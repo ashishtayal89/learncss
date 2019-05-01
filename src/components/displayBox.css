@@ -1,0 +1,10 @@
+div.displayBox{
+    position: relative;
+    overflow: scroll;
+    min-height: 150px;
+    margin: 20px 0px 20px 0px;
+    padding: 20px;
+    border: 2px solid black;
+    background: var(--color-white);
+    resize: vertical;
+}

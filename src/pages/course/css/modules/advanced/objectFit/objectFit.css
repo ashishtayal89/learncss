@@ -1,0 +1,5 @@
+.objectFit .fill {object-fit: fill;}
+.objectFit .contain {object-fit: contain;}
+.objectFit .cover {object-fit: cover;}
+.objectFit .scale-down {object-fit: scale-down;}
+.objectFit .none {object-fit: none;}

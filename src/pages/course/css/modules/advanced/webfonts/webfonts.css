@@ -1,0 +1,57 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(./assets/sansation_light.woff);
+    font-weight: normal;
+ }
+ 
+ @font-face {
+    font-family: myFirstFont;
+    src: url(./assets/sansation_bold.woff);
+    font-weight: bold;
+ }
+
+ @font-face {
+    font-family: mySecondFont;
+    src: url(./assets/sansation_light.woff);
+    font-weight: normal;
+ }
+
+ @font-face {
+    font-family: myThirdFont;
+    src: url(./assets/sansation_bold.woff);
+    font-weight: normal,bold;
+    font-style: italic,normal,oblique;
+ }
+
+div.light{
+     font-family: myFirstFont;
+ }
+
+div.bold{
+    font-family: myFirstFont;
+    font-weight: bold;
+}
+
+div.fontWeightNotFound{
+    font-family: mySecondFont;
+    font-weight: bold;
+}
+
+div.fontStyleNotFound{
+    font-family: mySecondFont;
+    font-style: italic;
+}
+
+div.fontStyleWeightFound{
+    font-family: myThirdFont;
+    font-style: italic;
+    font-weight: bold;
+}
+
+div.fontNotFound{
+    font-family: myFirstFont1;
+}
+ 
+ /* * {
+    font-family: myFirstFont;
+ } */

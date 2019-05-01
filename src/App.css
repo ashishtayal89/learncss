@@ -4,11 +4,13 @@ html{
 
 :root{
   --color-white: white;
+  --color-lighter-grey: #ecebeb;
   --color-light-grey: lightgrey;
   --color-grey: grey;
   --color-dark-grey: darkgrey;
   --color-light-yellow: lightyellow;
   --color-yellow: yellow;
+  --color-black: black;
 }
 
 body{

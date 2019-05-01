@@ -1,0 +1,10 @@
+div.tab{
+    display:none;
+}
+
+div.tab.active{
+    display: block;
+    padding: 10px;
+    background: var(--color-light-grey);
+    min-height: 100px;
+}

@@ -1,0 +1,9 @@
+#example1 {
+    background-image: url(./assets/img_flwr.gif), url(./assets//paper.gif);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+  }
+
+#example2 {
+    background: url(./assets/img_flwr.gif) left bottom no-repeat, url(./assets/paper.gif) left top repeat;
+}
